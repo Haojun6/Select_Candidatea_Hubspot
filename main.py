@@ -3,8 +3,8 @@ import json
 import dateutil.parser as parser
 import datetime
 
-urlGet = "https://candidate.hubteam.com/candidateTest/v3/problem/dataset?userKey=7c12f0fce1eb19cd7cce291a3c5b"
-urlPost = "https://candidate.hubteam.com/candidateTest/v3/problem/result?userKey=7c12f0fce1eb19cd7cce291a3c5b"
+urlGet = "https://candidate.hubteam.com"
+urlPost = "https://candidate.hubteam.com"
 
 # get the data from the url
 def getData(url):
